@@ -12,6 +12,12 @@
 
 <p align="center">
   <a href="https://alghussein4.github.io/alghussein4/">
+    <img src="./assets/arcade-quote.svg" width="70%" alt="Living for the fun of it, talking about fun... play this game" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://alghussein4.github.io/alghussein4/">
     <img src="./assets/arcade-preview.svg" width="70%" alt="Play Breakout — click to launch the game" />
   </a>
 </p>
