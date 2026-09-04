@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="60" viewBox="0 0 760 60">
+  <defs>
+    <linearGradient id="rainbow" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="220" y2="0" spreadMethod="repeat">
+      <stop offset="0%" stop-color="#ff0040"/>
+      <stop offset="16%" stop-color="#ff8c00"/>
+      <stop offset="33%" stop-color="#ffee00"/>
+      <stop offset="50%" stop-color="#00e676"/>
+      <stop offset="66%" stop-color="#00b0ff"/>
+      <stop offset="83%" stop-color="#7c4dff"/>
+      <stop offset="100%" stop-color="#ff0040"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="220 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <text x="380" y="38" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="url(#rainbow)">you scrolled this far, here's a cat 🐱</text>
+</svg>
