@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111826"/>
+      <stop offset="1" stop-color="#0a0e16"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2E9EF7"/>
+      <stop offset="1" stop-color="#9B5DE5"/>
+    </linearGradient>
+    <linearGradient id="paddle" x1="0" y1="0" x2="140" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2E9EF7"/>
+      <stop offset="1" stop-color="#9B5DE5"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="320" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="898" height="318" rx="17" fill="none" stroke="#9B5DE5" stroke-opacity="0.35"/>
+
+  <!-- brick rows -->
+  <g opacity="0.55">
+    <!-- row 1 -->
+    <g fill="#2E9EF7">
+      <rect x="30" y="30" width="90" height="22" rx="4"/><rect x="128" y="30" width="90" height="22" rx="4"/>
+      <rect x="226" y="30" width="90" height="22" rx="4"/><rect x="324" y="30" width="90" height="22" rx="4"/>
+      <rect x="422" y="30" width="90" height="22" rx="4"/><rect x="520" y="30" width="90" height="22" rx="4"/>
+      <rect x="618" y="30" width="90" height="22" rx="4"/><rect x="716" y="30" width="90" height="22" rx="4"/>
+      <rect x="814" y="30" width="56" height="22" rx="4"/>
+    </g>
+    <!-- row 2 -->
+    <g fill="#5B8DEF">
+      <rect x="30" y="58" width="90" height="22" rx="4"/><rect x="128" y="58" width="90" height="22" rx="4"/>
+      <rect x="226" y="58" width="90" height="22" rx="4"/><rect x="422" y="58" width="90" height="22" rx="4"/>
+      <rect x="520" y="58" width="90" height="22" rx="4"/><rect x="618" y="58" width="90" height="22" rx="4"/>
+      <rect x="716" y="58" width="90" height="22" rx="4"/><rect x="814" y="58" width="56" height="22" rx="4"/>
+    </g>
+    <!-- row 3 -->
+    <g fill="#8A72EA">
+      <rect x="30" y="86" width="90" height="22" rx="4"/><rect x="128" y="86" width="90" height="22" rx="4"/>
+      <rect x="324" y="86" width="90" height="22" rx="4"/><rect x="422" y="86" width="90" height="22" rx="4"/>
+      <rect x="618" y="86" width="90" height="22" rx="4"/><rect x="716" y="86" width="90" height="22" rx="4"/>
+      <rect x="814" y="86" width="56" height="22" rx="4"/>
+    </g>
+    <!-- row 4 -->
+    <g fill="#9B5DE5">
+      <rect x="128" y="114" width="90" height="22" rx="4"/><rect x="226" y="114" width="90" height="22" rx="4"/>
+      <rect x="422" y="114" width="90" height="22" rx="4"/><rect x="520" y="114" width="90" height="22" rx="4"/>
+      <rect x="716" y="114" width="90" height="22" rx="4"/>
+    </g>
+  </g>
+
+  <!-- ball -->
+  <circle cx="512" cy="188" r="7" fill="#e6edf3" filter="url(#glow)"/>
+  <!-- paddle -->
+  <rect x="440" y="236" width="140" height="14" rx="7" fill="url(#paddle)" filter="url(#glow)"/>
+
+  <!-- dark scrim for text legibility -->
+  <rect width="900" height="320" rx="18" fill="#0a0e16" opacity="0.42"/>
+
+  <!-- play button -->
+  <g filter="url(#glow)">
+    <circle cx="450" cy="150" r="46" fill="url(#brand)"/>
+    <path d="M436 128 L478 150 L436 172 Z" fill="#ffffff"/>
+  </g>
+
+  <text x="450" y="228" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#ffffff">PLAY BREAKOUT</text>
+  <text x="450" y="256" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#c7d0da">A quick arcade break — click to play</text>
+</svg>

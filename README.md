@@ -11,6 +11,12 @@
 </p>
 
 <p align="center">
+  <a href="https://alghussein4.github.io/alghussein4/">
+    <img src="./assets/arcade-preview.svg" width="70%" alt="Play Breakout — click to launch the game" />
+  </a>
+</p>
+
+<p align="center">
   <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
@@ -51,19 +57,6 @@
 </p>
 
 </details>
-
-<p align="center">
-  <img src="./assets/divider.svg" width="60%" alt="divider" />
-</p>
-
-### 🎮 Arcade
-
-<p align="center">
-  Bored? Take a break and play a round.<br/><br/>
-  <a href="https://alghussein4.github.io/alghussein4/">
-    <img src="https://img.shields.io/badge/%F0%9F%8E%AE_Play_Breakout-2E9EF7?style=for-the-badge" />
-  </a>
-</p>
 
 <p align="center">
   <img src="./assets/divider.svg" width="60%" alt="divider" />
