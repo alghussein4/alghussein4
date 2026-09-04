@@ -17,65 +17,9 @@
 ### 🧭 About Me
 
 - 📊 **Business Analyst** — I turn ambiguous business needs into requirements, process maps, and data models that stakeholders and engineers can both act on
-- 🧩 Deep hands-on work in **SAP Business One (B1)**: reconciling reports, analytics, and reporting models directly against HANA data
-- 💼 Built my process-integration instincts as an **Odoo Development Intern** at Asaastech — ERP customization (v16/v17) and business process mapping
-- 🧠 Studied **Software Engineering** (ASU) and **Data Science & AI** (Princess Sumaya University for Technology) — the technical fluency that lets me speak both "requirements" and "SQL"
-- 🏆 1st place, **Droidcon Amman Hackathon** · 2nd place, **Sumo Robots Competition** (Dammam, KSA)
-- 🌱 Currently leading requirements & data architecture for **JUMP**, a unified medical platform
-
-<details>
-<summary>🗺️ <b>How I got here</b> (click to expand)</summary>
-<br>
-
-I started in Data Science & AI, moved through Software Engineering, and landed on the side of the table I actually enjoy most: figuring out *what* a system should do and *why*, before anyone writes a line of code. Having built the systems myself means I can gather requirements, map processes, and design data models that engineering can implement without a translation gap — I've been on both sides of that handoff.
-
-</details>
-
-<p align="center">
-  <img src="./assets/divider.svg" width="60%" alt="divider" />
-</p>
-
-### 📊 SAP Business One & Analytics Work
-
-<details open>
-<summary><b>🧾 SAP B1 Report Reconciliation & Analytics</b></summary>
-<br>
-
-Reverse-engineered and rebuilt core SAP Business One analytical reports (Sales Analysis by Items, Purchase Analysis by Vendors) from scratch — reconciling cost logic, discounts, cancelled documents, and inventory movement quirks column-by-column against the live application to produce accurate, auditable **HANA SQL** models.
-`SAP Business One` `HANA SQL` `Data Reconciliation` `Business Intelligence`
-</details>
-
-<details>
-<summary><b>🏥 JUMP — Jordanian Unified Medical Platform</b></summary>
-<br>
-
-Led requirements gathering, user story creation, and information architecture for a unified medical platform — mapped business processes and worked with stakeholders to define backend API requirements and database schemas.
-`Business Analysis` `Process Mapping` `PostgreSQL` `Stakeholder Management`
-</details>
-
-<details>
-<summary><b>🔎 TechForward OCR Application</b></summary>
-<br>
-
-Worked with ProgressSoft industry mentors to define data requirements and evaluation metrics for an OCR application — analyzed dataset quality and optimized recognition workflows to improve system accuracy.
-`Requirements Definition` `Data Quality` `ProgressSoft`
-</details>
-
-<details>
-<summary><b>💧 Water Control System</b></summary>
-<br>
-
-Defined system requirements and documented automated process workflows for an electrical water flow management panel, including manual contingency processes for operational risk mitigation.
-`Systems Analysis` `Process Automation` `Risk Mitigation`
-</details>
-
-<details>
-<summary><b>🍳 WhiskItUp</b></summary>
-<br>
-
-Conducted user needs analysis and designed UI/UX prototypes in Figma for a cooking assistant web app, translating research into wireframes and a responsive cross-device experience.
-`UX Research` `Figma` `Wireframing`
-</details>
+- 🧩 Comfortable working close to the data — SAP Business One, HANA SQL, and BI reporting are where I spend most of my time
+- 🧠 Technical background in Software Engineering and Data Science & AI — it's what lets me speak both "requirements" and "SQL"
+- 🌍 Based in Amman, Jordan — open to Business Analyst / Systems Analyst roles
 
 <p align="center">
   <img src="./assets/divider.svg" width="60%" alt="divider" />
@@ -99,7 +43,7 @@ Conducted user needs analysis and designed UI/UX prototypes in Figma for a cooki
 </p>
 
 <details>
-<summary>🖥️ <b>Technical foundation</b> (the engineering side I analyze systems through)</summary>
+<summary>🖥️ <b>Technical foundation</b></summary>
 <br>
 
 <p align="center">
@@ -107,17 +51,6 @@ Conducted user needs analysis and designed UI/UX prototypes in Figma for a cooki
 </p>
 
 </details>
-
-<p align="center">
-  <img src="./assets/divider.svg" width="60%" alt="divider" />
-</p>
-
-### 🏅 Certifications
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Power_BI-Desktop_for_BI_(in_progress)-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-Data_Science_%26_ML_(in_progress)-3776AB?style=flat-square&logo=python&logoColor=white" />
-</p>
 
 <p align="center">
   <img src="./assets/divider.svg" width="60%" alt="divider" />
