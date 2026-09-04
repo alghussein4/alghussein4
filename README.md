@@ -27,19 +27,11 @@
 </p>
 
 <p align="center">
-  <img src="./assets/title-about.svg" alt="About Me" />
-</p>
-
-<p align="center">
   <img src="./assets/card-about.svg" alt="About Me" />
 </p>
 
 <p align="center">
   <img src="./assets/divider.svg" width="60%" alt="divider" />
-</p>
-
-<p align="center">
-  <img src="./assets/title-toolkit.svg" alt="Core Toolkit" />
 </p>
 
 <p align="center">
@@ -58,10 +50,6 @@
 
 <p align="center">
   <img src="./assets/divider.svg" width="60%" alt="divider" />
-</p>
-
-<p align="center">
-  <img src="./assets/title-snake.svg" alt="Contribution Snake" />
 </p>
 
 <p align="center">
