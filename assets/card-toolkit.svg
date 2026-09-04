@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="210" viewBox="0 0 700 210">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="700" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2E9EF7"/>
+      <stop offset="1" stop-color="#9B5DE5"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="700" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#131a2a"/>
+      <stop offset="1" stop-color="#0d1420"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="696" height="206" rx="18" fill="url(#bg)" stroke="url(#border)" stroke-width="3"/>
+
+  <g font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-weight="800">
+    <!-- primary tools -->
+    <rect x="92" y="28" width="215" height="44" rx="22" fill="#0FAAFF"/>
+    <text x="199" y="52" text-anchor="middle" dominant-baseline="central" font-size="17" fill="#ffffff">SAP Business One</text>
+
+    <rect x="323" y="28" width="135" height="44" rx="22" fill="#1F6C46"/>
+    <text x="390" y="52" text-anchor="middle" dominant-baseline="central" font-size="17" fill="#ffffff">HANA SQL</text>
+
+    <rect x="474" y="28" width="135" height="44" rx="22" fill="#F2C811"/>
+    <text x="541" y="52" text-anchor="middle" dominant-baseline="central" font-size="17" fill="#111111">Power BI</text>
+
+    <!-- tag row 1 -->
+    <rect x="59" y="90" width="230" height="34" rx="17" fill="#2E9EF7"/>
+    <text x="174" y="108" text-anchor="middle" dominant-baseline="central" font-size="13.5" fill="#ffffff">Requirements Gathering</text>
+
+    <rect x="303" y="90" width="175" height="34" rx="17" fill="#2E9EF7"/>
+    <text x="390" y="108" text-anchor="middle" dominant-baseline="central" font-size="13.5" fill="#ffffff">Process Mapping</text>
+
+    <rect x="492" y="90" width="150" height="34" rx="17" fill="#2E9EF7"/>
+    <text x="567" y="108" text-anchor="middle" dominant-baseline="central" font-size="13.5" fill="#ffffff">Data Modeling</text>
+
+    <!-- tag row 2 -->
+    <rect x="189" y="138" width="90" height="34" rx="17" fill="#F24E1E"/>
+    <text x="234" y="156" text-anchor="middle" dominant-baseline="central" font-size="13.5" fill="#ffffff">Figma</text>
+
+    <rect x="293" y="138" width="90" height="34" rx="17" fill="#9B5DE5"/>
+    <text x="338" y="156" text-anchor="middle" dominant-baseline="central" font-size="13.5" fill="#ffffff">Agile</text>
+
+    <rect x="397" y="138" width="115" height="34" rx="17" fill="#714B67"/>
+    <text x="454" y="156" text-anchor="middle" dominant-baseline="central" font-size="13.5" fill="#ffffff">Odoo ERP</text>
+  </g>
+</svg>
