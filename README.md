@@ -1,7 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:9B5DE5&height=220&section=header&text=Abdulrahman%20Alghussein&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Business%20Analyst%20%7C%20SAP%20B1%20%26%20Process%20Analytics&descAlignY=58&descSize=18" width="100%" alt="header" />
+<img src="./assets/header.svg" width="100%" alt="header" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=750&lines=Requirements+%E2%86%92+Process+Maps+%E2%86%92+Business+Impact;SAP+Business+One+%7C+Power+BI+%7C+HANA+SQL+%7C+ServiceNow;Bridging+business+needs+and+technical+systems;Based+in+Amman%2C+Jordan+%F0%9F%87%AF%F0%9F%87%B4" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=750&lines=Requirements+%E2%86%92+Process+Maps+%E2%86%92+Business+Impact;SAP+Business+One+%7C+Power+BI+%7C+HANA+SQL;Bridging+business+needs+and+technical+systems;Based+in+Amman%2C+Jordan+%F0%9F%87%AF%F0%9F%87%B4" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
+  <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
 ### 🧭 About Me
@@ -32,7 +32,7 @@ I started in Data Science & AI, moved through Software Engineering, and landed o
 </details>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
+  <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
 ### 📊 SAP Business One & Analytics Work
@@ -78,7 +78,7 @@ Conducted user needs analysis and designed UI/UX prototypes in Figma for a cooki
 </details>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
+  <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
 ### 🧰 Core Toolkit
@@ -87,7 +87,6 @@ Conducted user needs analysis and designed UI/UX prototypes in Figma for a cooki
   <img src="https://img.shields.io/badge/SAP_Business_One-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" />
   <img src="https://img.shields.io/badge/HANA_SQL-1F6C46?style=for-the-badge&logo=databricks&logoColor=white" />
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/ServiceNow-62D84E?style=for-the-badge&logo=servicenow&logoColor=white" />
 </p>
 
 <p align="center">
@@ -110,19 +109,32 @@ Conducted user needs analysis and designed UI/UX prototypes in Figma for a cooki
 </details>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
+  <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
 ### 🏅 Certifications
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ServiceNow-Welcome_to_ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=white" />
   <img src="https://img.shields.io/badge/Power_BI-Desktop_for_BI_(in_progress)-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/Python-Data_Science_%26_ML_(in_progress)-3776AB?style=flat-square&logo=python&logoColor=white" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
+  <img src="./assets/divider.svg" width="60%" alt="divider" />
+</p>
+
+### 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alghussein4/Alghussein4/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alghussein4/Alghussein4/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Alghussein4/Alghussein4/output/github-contribution-grid-snake.svg" width="100%" alt="contribution snake animation" />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
 ### 📊 GitHub Metrics
@@ -136,7 +148,7 @@ Conducted user needs analysis and designed UI/UX prototypes in Figma for a cooki
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9B5DE5,100:2E9EF7&height=150&section=footer" width="100%" alt="footer" />
+  <img src="./assets/footer.svg" width="100%" alt="footer" />
 </p>
 
 <p align="center">
