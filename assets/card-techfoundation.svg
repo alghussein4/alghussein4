@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="210" viewBox="0 0 700 210">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="700" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2E9EF7"/>
+      <stop offset="1" stop-color="#9B5DE5"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="700" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#131a2a"/>
+      <stop offset="1" stop-color="#0d1420"/>
+    </linearGradient>
+    <linearGradient id="heading" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5B8DEF"/>
+      <stop offset="1" stop-color="#b98af0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="696" height="206" rx="18" fill="url(#bg)" stroke="url(#border)" stroke-width="3"/>
+
+  <text x="44" y="54" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="25" font-weight="800" fill="url(#heading)">🖥️ Technical Foundation</text>
+  <line x1="44" y1="72" x2="656" y2="72" stroke="url(#border)" stroke-width="1.5" opacity="0.35"/>
+
+  <image href="https://skillicons.dev/icons?i=cs,python,js,ts,react,django,dotnet,postgres,docker,aws,linux,git&amp;theme=light" x="50" y="106" width="600" height="43.2"/>
+</svg>

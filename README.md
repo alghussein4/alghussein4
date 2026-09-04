@@ -38,15 +38,9 @@
   <img src="./assets/card-toolkit.svg" alt="Core Toolkit" />
 </p>
 
-<details>
-<summary align="center">🖥️ <b>Technical foundation</b></summary>
-<br>
-
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,python,js,ts,react,django,dotnet,postgres,docker,aws,linux,git&theme=light" alt="tech stack icons" />
+  <img src="./assets/card-techfoundation.svg" alt="Technical Foundation" />
 </p>
-
-</details>
 
 <p align="center">
   <img src="./assets/divider.svg" width="60%" alt="divider" />
@@ -64,9 +58,7 @@
   <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
-<p align="center">
-  <img src="./assets/title-metrics.svg" alt="GitHub Metrics" />
-</p>
+### 📊 GitHub Metrics
 
 <p align="center">
   <img src="./github-metrics.svg" width="460" alt="GitHub metrics" />
