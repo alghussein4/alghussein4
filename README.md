@@ -108,7 +108,7 @@
 
 <p align="center">
   <sub>you scrolled this far, here's a cat 🐱</sub><br/>
-  <img src="https://cataas.com/cat/gif" width="260" alt="random cat" />
+  <img src="https://cataas.com/cat/gif" width="420" alt="random cat" />
 </p>
 
 <p align="center">
