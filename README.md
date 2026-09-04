@@ -9,7 +9,8 @@
   &nbsp;&nbsp;
   <a href="mailto:alghussein4@gmail.com"><img src="./assets/icon-email.svg" width="44" alt="Email" /></a>
   &nbsp;&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Alghussein4&color=9B5DE5&style=for-the-badge&label=PROFILE+VIEWS" />
+  <img src="./assets/icon-views.svg" width="44" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Alghussein4&color=9B5DE5&style=flat&label=" />
 </p>
 
 <p align="center">
