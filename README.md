@@ -105,10 +105,8 @@ RAG-based assistant for SAP Business One with a pluggable LLM chain.
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alghussein4&hide_border=true&background=00000000&ring=2E9EF7&fire=9B5DE5" alt="streak stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alghussein4&theme=radical&hide_border=true" alt="streak stats" />
 </p>
-
-> ⏳ The metrics panel above renders itself automatically the first time the **Metrics** GitHub Action runs on this repo — it regenerates daily, so it always stays current.
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9B5DE5,100:2E9EF7&height=150&section=footer" width="100%" alt="footer" />
