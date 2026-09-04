@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/abdulrahman-alghussein"><img src="./assets/icon-linkedin.svg" width="44" alt="LinkedIn" /></a>
   &nbsp;&nbsp;
-  <a href="mailto:alghussein4@gmail.com"><img src="./assets/icon-email.svg" width="44" alt="Email" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alghussein4@gmail.com"><img src="./assets/icon-email.svg" width="44" alt="Email" /></a>
   &nbsp;&nbsp;
   <img src="./assets/icon-views.svg" width="44" alt="Profile views" />
   <img src="https://komarev.com/ghpvc/?username=Alghussein4&color=9B5DE5&style=flat&label=" />
@@ -91,6 +91,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abdulrahman-alghussein">LinkedIn</a> ·
-  <a href="mailto:alghussein4@gmail.com">alghussein4@gmail.com</a> ·
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alghussein4@gmail.com">alghussein4@gmail.com</a> ·
   📍 Amman, Jordan
 </p>
