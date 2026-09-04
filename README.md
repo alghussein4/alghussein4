@@ -60,7 +60,7 @@
 
 <p align="center">
   Bored? Take a break and play a round.<br/><br/>
-  <a href="https://alghussein4.github.io/Alghussein4/">
+  <a href="https://alghussein4.github.io/alghussein4/">
     <img src="https://img.shields.io/badge/%F0%9F%8E%AE_Play_Breakout-2E9EF7?style=for-the-badge" />
   </a>
 </p>
