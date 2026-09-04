@@ -103,6 +103,15 @@
 </p>
 
 <p align="center">
+  <img src="./assets/divider.svg" width="60%" alt="divider" />
+</p>
+
+<p align="center">
+  <sub>you scrolled this far, here's a cat 🐱</sub><br/>
+  <img src="https://cataas.com/cat/gif" width="260" alt="random cat" />
+</p>
+
+<p align="center">
   <img src="./assets/footer.svg" width="100%" alt="footer" />
 </p>
 
