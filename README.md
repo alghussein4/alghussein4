@@ -1,83 +1,118 @@
-<h1 align="center">Hi, I'm Abdulrahman Alghussein 👋</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:9B5DE5&height=220&section=header&text=Abdulrahman%20Alghussein&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20%2F%20Business%20Engineer&descAlignY=58&descSize=18" width="100%" alt="header" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Software+Engineering+Student+%40+ASU;Full-Stack+%2F+Data+%2F+Automation+Builder;Odoo+%7C+React+%7C+Django+%7C+Python+%7C+C%23;Based+in+Amman%2C+Jordan+%F0%9F%87%AF%F0%9F%87%B4" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=Full-Stack+%2F+Data+%2F+Automation+Builder;Odoo+%7C+React+%7C+Django+%7C+Python+%7C+C%23;Turning+messy+business+processes+into+clean+systems;Based+in+Amman%2C+Jordan+%F0%9F%87%AF%F0%9F%87%B4" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abdulrahman-alghussein"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:alghussein4@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Alghussein4&color=9B5DE5&style=for-the-badge&label=PROFILE+VIEWS" />
 </p>
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
+</p>
 
 ### 🧭 About Me
 
-- 🎓 Software Engineering student at **Applied Science Private University (ASU)**, Amman — 2023–Present
-- 🧠 Background in **Data Science & AI** from **Princess Sumaya University for Technology** (2021–2023)
-- 💼 Former **Odoo Development Intern** at Asaastech — customized Odoo v16/v17 and worked with AWS deployments
+- ⚙️ **Software / Business Engineer** — I connect requirements, data, and code: from mapping business processes to shipping the system that runs them
+- 💼 Built my hands-on chops as an **Odoo Development Intern** at Asaastech (v16/v17 customization, AWS-deployed infra)
+- 🧠 Studied **Software Engineering** (ASU) and **Data Science & AI** (Princess Sumaya University for Technology)
 - 🏆 1st place, **Droidcon Amman Hackathon** · 2nd place, **Sumo Robots Competition** (Dammam, KSA)
-- 🛠️ Also run a personal workshop building handcrafts, tools, and machinery
-- 🌱 Currently building **JUMP**, a full-stack unified medical platform, as my graduation project
+- 🌱 Currently building **JUMP**, a full-stack unified medical platform, end to end
+- 🛠️ Off-screen, I run a personal workshop building handcrafts, tools, and machinery
 
----
+<details>
+<summary>🗺️ <b>How I got here</b> (click to expand)</summary>
+<br>
+
+I started in Data Science & AI, then moved into Software Engineering to build the systems the data lives in. That path is why I move comfortably between **requirements gathering → data modeling → backend APIs → frontend** — I've sat on both sides of that handoff, as an analyst and as the engineer implementing it.
+
+</details>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
+</p>
 
 ### 🚀 Featured Projects
 
-| Project | Description | Stack |
-|---|---|---|
-| 🏥 **[JUMP – Jordanian Unified Medical Platform](https://github.com/Alghussein4)** | Full-stack unified medical records platform: information architecture, frontend, and backend APIs designed end-to-end as a graduation project | `React` `TypeScript` `Django` `PostgreSQL` |
-| 🔎 **TechForward OCR Application** | Optical Character Recognition app built with ProgressSoft industry mentors — handwritten, printed, mixed & bank-contract document recognition | `Python` `PaddleOCR` `TrOCR` |
-| 🍳 **WhiskItUp** | Cooking assistant web app — user research, Figma prototypes, and a responsive UI for all ages | `HTML` `CSS` `JavaScript` `Bootstrap` `Figma` |
-| 💧 **Water Control System** | Engineered an automated electrical control panel for water flow management, with manual override for emergencies | `Circuit Design` `Automation` |
-| 🤖 **SkyBot** | RAG-based assistant for SAP Business One with a pluggable LLM chain | `Python` `RAG` |
+<details open>
+<summary><b>🏥 JUMP — Jordanian Unified Medical Platform</b></summary>
+<br>
 
----
+Full-stack unified medical records platform — information architecture, frontend, and backend APIs designed end-to-end as a graduation project.
+`React` `TypeScript` `Django` `PostgreSQL`
+</details>
+
+<details>
+<summary><b>🔎 TechForward OCR Application</b></summary>
+<br>
+
+Optical Character Recognition app built with ProgressSoft industry mentors — handwritten, printed, mixed & bank-contract document recognition.
+`Python` `PaddleOCR` `TrOCR`
+</details>
+
+<details>
+<summary><b>🍳 WhiskItUp</b></summary>
+<br>
+
+Cooking assistant web app — user research, Figma prototypes, and a responsive UI for all ages.
+`HTML` `CSS` `JavaScript` `Bootstrap` `Figma`
+</details>
+
+<details>
+<summary><b>💧 Water Control System</b></summary>
+<br>
+
+Automated electrical control panel for water flow management, with manual override for emergencies.
+`Circuit Design` `Automation`
+</details>
+
+<details>
+<summary><b>🤖 SkyBot</b></summary>
+<br>
+
+RAG-based assistant for SAP Business One with a pluggable LLM chain.
+`Python` `RAG`
+</details>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
+</p>
 
 ### 🧰 Tech Stack
 
-**Languages**
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frameworks & Tools**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![ASP.NET](https://img.shields.io/badge/ASP.NET_MVC-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-
-**Other**
-![IoT](https://img.shields.io/badge/IoT-BLE_Tracking-blue?style=flat-square)
-![Robotics](https://img.shields.io/badge/Robotics-Circuit_%26_Systems_Design-orange?style=flat-square)
-
----
-
-### 📊 GitHub Stats
-
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Alghussein4&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alghussein4&layout=compact&hide_border=true" />
+  <img src="https://skillicons.dev/icons?i=cs,python,js,ts,java,cpp,react,django,dotnet,postgres,docker,aws,linux,git,figma&theme=light" alt="tech stack icons" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alghussein4&hide_border=true" alt="streak stats" />
+  <img src="https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/IoT-BLE_Tracking-2E9EF7?style=flat-square" />
+  <img src="https://img.shields.io/badge/Robotics-Circuit_%26_Systems_Design-9B5DE5?style=flat-square" />
 </p>
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
+</p>
 
-### 📫 Reach Me
+### 📊 GitHub Metrics
+
+<p align="center">
+  <img src="./github-metrics.svg" width="100%" alt="GitHub metrics" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alghussein4&hide_border=true&background=00000000&ring=2E9EF7&fire=9B5DE5" alt="streak stats" />
+</p>
+
+> ⏳ The metrics panel above renders itself automatically the first time the **Metrics** GitHub Action runs on this repo — it regenerates daily, so it always stays current.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9B5DE5,100:2E9EF7&height=150&section=footer" width="100%" alt="footer" />
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abdulrahman-alghussein">LinkedIn</a> ·
