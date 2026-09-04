@@ -5,8 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/abdulrahman-alghussein"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:alghussein4@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/abdulrahman-alghussein"><img src="./assets/icon-linkedin.svg" width="44" alt="LinkedIn" /></a>
+  &nbsp;&nbsp;
+  <a href="mailto:alghussein4@gmail.com"><img src="./assets/icon-email.svg" width="44" alt="Email" /></a>
+  &nbsp;&nbsp;
   <img src="https://komarev.com/ghpvc/?username=Alghussein4&color=9B5DE5&style=for-the-badge&label=PROFILE+VIEWS" />
 </p>
 
@@ -36,6 +38,10 @@
 
 <p align="center">
   <img src="./assets/card-toolkit.svg" alt="Core Toolkit" />
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
 <p align="center">
