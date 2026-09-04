@@ -95,7 +95,7 @@
 </p>
 
 <p align="center">
-  <img src="./github-metrics.svg" width="100%" alt="GitHub metrics" />
+  <img src="./github-metrics.svg" width="460" alt="GitHub metrics" />
 </p>
 
 <p align="center">
