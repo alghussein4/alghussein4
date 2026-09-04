@@ -126,6 +126,60 @@
     font-size:12px;
     color:var(--muted);
   }
+
+  #statsToggle{
+    background:transparent;
+    border:1px solid rgba(155,93,229,0.4);
+    box-shadow:none;
+    color:var(--text);
+    font-weight:500;
+  }
+  #statsToggle:hover{ border-color:var(--blue); }
+
+  .stats-panel{
+    width:min(640px, 92vw);
+    margin-top:18px;
+    padding:18px 20px 14px;
+    border-radius:14px;
+    background:linear-gradient(180deg,#111826,#0a0e16);
+    box-shadow:0 0 0 1px rgba(46,158,247,0.2);
+  }
+  .stats-kpis{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:12px;
+  }
+  .kpi{
+    text-align:center;
+    min-width:110px;
+  }
+  .kpi .num{
+    font-size:22px;
+    font-weight:700;
+    background:linear-gradient(90deg,var(--blue),var(--purple));
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+  }
+  .kpi .label{
+    font-size:11px;
+    color:var(--muted);
+    text-transform:uppercase;
+    letter-spacing:.04em;
+  }
+  #statsChart{
+    width:100%;
+    height:auto;
+    display:block;
+  }
+  .stats-caption{
+    text-align:center;
+    font-size:12px;
+    color:var(--muted);
+    margin:10px 0 0;
+  }
 </style>
 </head>
 <body>
@@ -152,6 +206,14 @@
 </div>
 
 <p class="hint">Best score is saved locally in your browser.</p>
+
+<button id="statsToggle" style="margin-top:6px;">📊 Peek at my live GitHub stats</button>
+
+<div class="stats-panel" id="statsPanel" hidden>
+  <div class="stats-kpis" id="statsKpis"></div>
+  <canvas id="statsChart" width="560" height="220"></canvas>
+  <p class="stats-caption" id="statsCaption">Loading live data from the GitHub API&hellip;</p>
+</div>
 
 <footer>
   Built for the <a href="https://github.com/Alghussein4">Alghussein4</a> GitHub profile
@@ -406,6 +468,115 @@
   resetBall();
   buildBricks();
   draw();
+})();
+</script>
+
+<script>
+(function(){
+  const GH_USER = 'Alghussein4';
+  const toggle = document.getElementById('statsToggle');
+  const panel = document.getElementById('statsPanel');
+  const kpisEl = document.getElementById('statsKpis');
+  const caption = document.getElementById('statsCaption');
+  const chart = document.getElementById('statsChart');
+  const cctx = chart.getContext('2d');
+
+  const LANG_COLORS = ['#2E9EF7', '#5B8DEF', '#8A72EA', '#9B5DE5', '#c26be0', '#5c7cfa'];
+
+  let loaded = false;
+
+  toggle.addEventListener('click', () => {
+    const willShow = panel.hasAttribute('hidden');
+    if (willShow){
+      panel.removeAttribute('hidden');
+      toggle.textContent = '📊 Hide GitHub stats';
+      if (!loaded) loadStats();
+    } else {
+      panel.setAttribute('hidden', '');
+      toggle.textContent = '📊 Peek at my live GitHub stats';
+    }
+  });
+
+  function kpi(num, label){
+    const d = document.createElement('div');
+    d.className = 'kpi';
+    d.innerHTML = `<div class="num">${num}</div><div class="label">${label}</div>`;
+    return d;
+  }
+
+  function yearsSince(dateStr){
+    const then = new Date(dateStr);
+    const diff = (Date.now() - then.getTime()) / (1000*60*60*24*365.25);
+    return Math.max(1, Math.round(diff));
+  }
+
+  function drawBarChart(entries){
+    const W = chart.width, H = chart.height;
+    cctx.clearRect(0, 0, W, H);
+    if (!entries.length){
+      cctx.fillStyle = '#8b949e';
+      cctx.font = '13px sans-serif';
+      cctx.fillText('No public repository languages to show yet.', 16, H/2);
+      return;
+    }
+    const max = Math.max(...entries.map(e => e[1]));
+    const padLeft = 90, padRight = 20, padTop = 10, padBottom = 10;
+    const rowH = (H - padTop - padBottom) / entries.length;
+    const barMaxW = W - padLeft - padRight;
+
+    entries.forEach(([lang, count], i) => {
+      const y = padTop + i * rowH;
+      const barW = Math.max(6, (count / max) * barMaxW);
+
+      cctx.fillStyle = '#e6edf3';
+      cctx.font = '13px -apple-system, Segoe UI, sans-serif';
+      cctx.textBaseline = 'middle';
+      cctx.fillText(lang, 0, y + rowH/2);
+
+      const grad = cctx.createLinearGradient(padLeft, 0, padLeft + barW, 0);
+      grad.addColorStop(0, LANG_COLORS[i % LANG_COLORS.length]);
+      grad.addColorStop(1, '#9B5DE5');
+      cctx.fillStyle = grad;
+      const barH = Math.min(18, rowH * 0.55);
+      const ry = y + rowH/2 - barH/2;
+      cctx.beginPath();
+      cctx.roundRect(padLeft, ry, barW, barH, 5);
+      cctx.fill();
+
+      cctx.fillStyle = '#c7d0da';
+      cctx.font = '12px sans-serif';
+      cctx.fillText(String(count), padLeft + barW + 8, y + rowH/2);
+    });
+  }
+
+  async function loadStats(){
+    try {
+      const [userRes, reposRes] = await Promise.all([
+        fetch(`https://api.github.com/users/${GH_USER}`),
+        fetch(`https://api.github.com/users/${GH_USER}/repos?per_page=100`)
+      ]);
+      if (!userRes.ok || !reposRes.ok) throw new Error('GitHub API request failed');
+      const user = await userRes.json();
+      const repos = await reposRes.json();
+
+      kpisEl.appendChild(kpi(user.public_repos, 'Public Repos'));
+      kpisEl.appendChild(kpi(user.followers, 'Followers'));
+      kpisEl.appendChild(kpi(yearsSince(user.created_at) + 'y', 'On GitHub'));
+
+      const counts = {};
+      repos.forEach(r => {
+        if (!r.language) return;
+        counts[r.language] = (counts[r.language] || 0) + 1;
+      });
+      const entries = Object.entries(counts).sort((a,b) => b[1]-a[1]).slice(0, 6);
+
+      drawBarChart(entries);
+      caption.textContent = `Live from the GitHub API · top languages across ${repos.length} public repos`;
+      loaded = true;
+    } catch (err){
+      caption.textContent = 'Could not load live stats right now — try again in a bit.';
+    }
+  }
 })();
 </script>
 
