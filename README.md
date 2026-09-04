@@ -1,7 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:9B5DE5&height=220&section=header&text=Abdulrahman%20Alghussein&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20%2F%20Business%20Engineer&descAlignY=58&descSize=18" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:9B5DE5&height=220&section=header&text=Abdulrahman%20Alghussein&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Business%20Analyst%20%7C%20SAP%20B1%20%26%20Process%20Analytics&descAlignY=58&descSize=18" width="100%" alt="header" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=Full-Stack+%2F+Data+%2F+Automation+Builder;Odoo+%7C+React+%7C+Django+%7C+Python+%7C+C%23;Turning+messy+business+processes+into+clean+systems;Based+in+Amman%2C+Jordan+%F0%9F%87%AF%F0%9F%87%B4" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=750&lines=Requirements+%E2%86%92+Process+Maps+%E2%86%92+Business+Impact;SAP+Business+One+%7C+Power+BI+%7C+HANA+SQL+%7C+ServiceNow;Bridging+business+needs+and+technical+systems;Based+in+Amman%2C+Jordan+%F0%9F%87%AF%F0%9F%87%B4" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -16,18 +16,18 @@
 
 ### 🧭 About Me
 
-- ⚙️ **Software / Business Engineer** — I connect requirements, data, and code: from mapping business processes to shipping the system that runs them
-- 💼 Built my hands-on chops as an **Odoo Development Intern** at Asaastech (v16/v17 customization, AWS-deployed infra)
-- 🧠 Studied **Software Engineering** (ASU) and **Data Science & AI** (Princess Sumaya University for Technology)
+- 📊 **Business Analyst** — I turn ambiguous business needs into requirements, process maps, and data models that stakeholders and engineers can both act on
+- 🧩 Deep hands-on work in **SAP Business One (B1)**: reconciling reports, analytics, and reporting models directly against HANA data
+- 💼 Built my process-integration instincts as an **Odoo Development Intern** at Asaastech — ERP customization (v16/v17) and business process mapping
+- 🧠 Studied **Software Engineering** (ASU) and **Data Science & AI** (Princess Sumaya University for Technology) — the technical fluency that lets me speak both "requirements" and "SQL"
 - 🏆 1st place, **Droidcon Amman Hackathon** · 2nd place, **Sumo Robots Competition** (Dammam, KSA)
-- 🌱 Currently building **JUMP**, a full-stack unified medical platform, end to end
-- 🛠️ Off-screen, I run a personal workshop building handcrafts, tools, and machinery
+- 🌱 Currently leading requirements & data architecture for **JUMP**, a unified medical platform
 
 <details>
 <summary>🗺️ <b>How I got here</b> (click to expand)</summary>
 <br>
 
-I started in Data Science & AI, then moved into Software Engineering to build the systems the data lives in. That path is why I move comfortably between **requirements gathering → data modeling → backend APIs → frontend** — I've sat on both sides of that handoff, as an analyst and as the engineer implementing it.
+I started in Data Science & AI, moved through Software Engineering, and landed on the side of the table I actually enjoy most: figuring out *what* a system should do and *why*, before anyone writes a line of code. Having built the systems myself means I can gather requirements, map processes, and design data models that engineering can implement without a translation gap — I've been on both sides of that handoff.
 
 </details>
 
@@ -35,63 +35,90 @@ I started in Data Science & AI, then moved into Software Engineering to build th
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
 </p>
 
-### 🚀 Featured Projects
+### 📊 SAP Business One & Analytics Work
 
 <details open>
+<summary><b>🧾 SAP B1 Report Reconciliation & Analytics</b></summary>
+<br>
+
+Reverse-engineered and rebuilt core SAP Business One analytical reports (Sales Analysis by Items, Purchase Analysis by Vendors) from scratch — reconciling cost logic, discounts, cancelled documents, and inventory movement quirks column-by-column against the live application to produce accurate, auditable **HANA SQL** models.
+`SAP Business One` `HANA SQL` `Data Reconciliation` `Business Intelligence`
+</details>
+
+<details>
 <summary><b>🏥 JUMP — Jordanian Unified Medical Platform</b></summary>
 <br>
 
-Full-stack unified medical records platform — information architecture, frontend, and backend APIs designed end-to-end as a graduation project.
-`React` `TypeScript` `Django` `PostgreSQL`
+Led requirements gathering, user story creation, and information architecture for a unified medical platform — mapped business processes and worked with stakeholders to define backend API requirements and database schemas.
+`Business Analysis` `Process Mapping` `PostgreSQL` `Stakeholder Management`
 </details>
 
 <details>
 <summary><b>🔎 TechForward OCR Application</b></summary>
 <br>
 
-Optical Character Recognition app built with ProgressSoft industry mentors — handwritten, printed, mixed & bank-contract document recognition.
-`Python` `PaddleOCR` `TrOCR`
-</details>
-
-<details>
-<summary><b>🍳 WhiskItUp</b></summary>
-<br>
-
-Cooking assistant web app — user research, Figma prototypes, and a responsive UI for all ages.
-`HTML` `CSS` `JavaScript` `Bootstrap` `Figma`
+Worked with ProgressSoft industry mentors to define data requirements and evaluation metrics for an OCR application — analyzed dataset quality and optimized recognition workflows to improve system accuracy.
+`Requirements Definition` `Data Quality` `ProgressSoft`
 </details>
 
 <details>
 <summary><b>💧 Water Control System</b></summary>
 <br>
 
-Automated electrical control panel for water flow management, with manual override for emergencies.
-`Circuit Design` `Automation`
+Defined system requirements and documented automated process workflows for an electrical water flow management panel, including manual contingency processes for operational risk mitigation.
+`Systems Analysis` `Process Automation` `Risk Mitigation`
 </details>
 
 <details>
-<summary><b>🤖 SkyBot</b></summary>
+<summary><b>🍳 WhiskItUp</b></summary>
 <br>
 
-RAG-based assistant for SAP Business One with a pluggable LLM chain.
-`Python` `RAG`
+Conducted user needs analysis and designed UI/UX prototypes in Figma for a cooking assistant web app, translating research into wireframes and a responsive cross-device experience.
+`UX Research` `Figma` `Wireframing`
 </details>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
 </p>
 
-### 🧰 Tech Stack
+### 🧰 Core Toolkit
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,python,js,ts,java,cpp,react,django,dotnet,postgres,docker,aws,linux,git,figma&theme=light" alt="tech stack icons" />
+  <img src="https://img.shields.io/badge/SAP_Business_One-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" />
+  <img src="https://img.shields.io/badge/HANA_SQL-1F6C46?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/ServiceNow-62D84E?style=for-the-badge&logo=servicenow&logoColor=white" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/IoT-BLE_Tracking-2E9EF7?style=flat-square" />
-  <img src="https://img.shields.io/badge/Robotics-Circuit_%26_Systems_Design-9B5DE5?style=flat-square" />
+  <img src="https://img.shields.io/badge/Requirements_Gathering-2E9EF7?style=flat-square" />
+  <img src="https://img.shields.io/badge/Process_Mapping-2E9EF7?style=flat-square" />
+  <img src="https://img.shields.io/badge/Data_Modeling-2E9EF7?style=flat-square" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Agile-9B5DE5?style=flat-square" />
+  <img src="https://img.shields.io/badge/Odoo_ERP-714B67?style=flat-square&logo=odoo&logoColor=white" />
+</p>
+
+<details>
+<summary>🖥️ <b>Technical foundation</b> (the engineering side I analyze systems through)</summary>
+<br>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cs,python,js,ts,react,django,dotnet,postgres,docker,aws,linux,git&theme=light" alt="tech stack icons" />
+</p>
+
+</details>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2E9EF7,100:9B5DE5&height=2&width=1000" width="60%" alt="divider" />
+</p>
+
+### 🏅 Certifications
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ServiceNow-Welcome_to_ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-Desktop_for_BI_(in_progress)-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Python-Data_Science_%26_ML_(in_progress)-3776AB?style=flat-square&logo=python&logoColor=white" />
 </p>
 
 <p align="center">
