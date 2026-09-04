@@ -20,49 +20,63 @@
   <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
-### 🧭 About Me
+<p align="center">
+  <img src="./assets/title-about.svg" alt="About Me" />
+</p>
+
+<table align="center">
+<tr><td width="640">
 
 - 📊 **Business Analyst** — I turn ambiguous business needs into requirements, process maps, and data models that stakeholders and engineers can both act on
 - 🧩 Comfortable working close to the data — SAP Business One, HANA SQL, and BI reporting are where I spend most of my time
 - 🧠 Technical background in Software Engineering and Data Science & AI — it's what lets me speak both "requirements" and "SQL"
 - 🌍 Based in Amman, Jordan — open to Business Analyst / Systems Analyst roles
 
+</td></tr>
+</table>
+
 <p align="center">
   <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
-### 🧰 Core Toolkit
-
 <p align="center">
-  <img src="https://img.shields.io/badge/SAP_Business_One-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" />
-  <img src="https://img.shields.io/badge/HANA_SQL-1F6C46?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="./assets/title-toolkit.svg" alt="Core Toolkit" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Requirements_Gathering-2E9EF7?style=flat-square" />
-  <img src="https://img.shields.io/badge/Process_Mapping-2E9EF7?style=flat-square" />
-  <img src="https://img.shields.io/badge/Data_Modeling-2E9EF7?style=flat-square" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Agile-9B5DE5?style=flat-square" />
-  <img src="https://img.shields.io/badge/Odoo_ERP-714B67?style=flat-square&logo=odoo&logoColor=white" />
-</p>
+<table align="center">
+<tr><td width="640" align="center">
+
+<img src="https://img.shields.io/badge/SAP_Business_One-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" />
+<img src="https://img.shields.io/badge/HANA_SQL-1F6C46?style=for-the-badge&logo=databricks&logoColor=white" />
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Requirements_Gathering-2E9EF7?style=flat-square" />
+<img src="https://img.shields.io/badge/Process_Mapping-2E9EF7?style=flat-square" />
+<img src="https://img.shields.io/badge/Data_Modeling-2E9EF7?style=flat-square" />
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
+<img src="https://img.shields.io/badge/Agile-9B5DE5?style=flat-square" />
+<img src="https://img.shields.io/badge/Odoo_ERP-714B67?style=flat-square&logo=odoo&logoColor=white" />
 
 <details>
 <summary>🖥️ <b>Technical foundation</b></summary>
 <br>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,python,js,ts,react,django,dotnet,postgres,docker,aws,linux,git&theme=light" alt="tech stack icons" />
-</p>
+<img src="https://skillicons.dev/icons?i=cs,python,js,ts,react,django,dotnet,postgres,docker,aws,linux,git&theme=light" alt="tech stack icons" />
 
 </details>
+
+</td></tr>
+</table>
 
 <p align="center">
   <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
-### 🐍 Contribution Snake
+<p align="center">
+  <img src="./assets/title-snake.svg" alt="Contribution Snake" />
+</p>
 
 <p align="center">
   <picture>
@@ -76,7 +90,9 @@
   <img src="./assets/divider.svg" width="60%" alt="divider" />
 </p>
 
-### 📊 GitHub Metrics
+<p align="center">
+  <img src="./assets/title-metrics.svg" alt="GitHub Metrics" />
+</p>
 
 <p align="center">
   <img src="./github-metrics.svg" width="100%" alt="GitHub metrics" />

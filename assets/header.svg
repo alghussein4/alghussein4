@@ -1,49 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1420"/>
+      <stop offset="0.5" stop-color="#141c2e"/>
+      <stop offset="1" stop-color="#1a1330"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 60) rotate(90) scale(220 380)">
+      <stop stop-color="#2E9EF7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2E9EF7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 220) rotate(90) scale(200 340)">
+      <stop stop-color="#9B5DE5" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#9B5DE5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dfe8f7"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2E9EF7"/>
+      <stop offset="1" stop-color="#9B5DE5"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
 
-      <svg
-        width="854"
-        height="220"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        style="z-index:1;position:relative"
-        viewBox="0 0 854 220"
-      >
-        <style>
-      .text {   font-size: 46px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 18px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
-      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
-    </style>
-        <defs>
-              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#2E9EF7"/><stop offset="100%" stop-color="#9B5DE5"/>
-              </linearGradient>
-            </defs>
-        
-      <g transform="translate(427, 110) scale(1, 1) translate(-427, -110)">
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-              attributeName="d"
-              dur="20s"
-              repeatCount="indefinite"
-              keyTimes="0;0.333;0.667;1"
-              calcmod="spline"
-              keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-              begin="0s"
-              values="M0 0L 0 140Q 213.5 180 427 150T 854 175L 854 0 Z;M0 0L 0 165Q 213.5 180 427 160T 854 150L 854 0 Z;M0 0L 0 185Q 213.5 155 427 185T 854 150L 854 0 Z;M0 0L 0 140Q 213.5 180 427 150T 854 175L 854 0 Z">
-          </animate>
-        </path>
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-            attributeName="d"
-            dur="20s"
-            repeatCount="indefinite"
-            keyTimes="0;0.333;0.667;1"
-            calcmod="spline"
-            keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-            begin="-10s"
-            values="M0 0L 0 155Q 213.5 200 427 170T 854 180L 854 0 Z;M0 0L 0 170Q 213.5 140 427 140T 854 160L 854 0 Z;M0 0L 0 165Q 213.5 145 427 170T 854 185L 854 0 Z;M0 0L 0 155Q 213.5 200 427 170T 854 180L 854 0 Z">
-          </animate>
-        </path>
-      </g>
-         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="38%" class="text" style="fill:#ffffff;" stroke="#none" stroke-width="1" >Abdulrahman Alghussein</text>
-        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="58%" class="desc" style="fill:#ffffff;">Business Analyst | SAP B1 and Process Analytics</text>
-      </svg>
-    
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#dots)"/>
+  <rect width="1200" height="260" fill="url(#glow1)"/>
+  <rect width="1200" height="260" fill="url(#glow2)"/>
+
+  <!-- subtle circuit-style lines -->
+  <g stroke="#ffffff" stroke-opacity="0.07" stroke-width="1.5" fill="none">
+    <path d="M0 210 H160 L190 180 H340"/>
+    <path d="M1200 60 H1000 L970 90 H860"/>
+    <path d="M0 40 H90 L115 65"/>
+    <circle cx="340" cy="180" r="3.5" fill="#2E9EF7" fill-opacity="0.5" stroke="none"/>
+    <circle cx="860" cy="90" r="3.5" fill="#9B5DE5" fill-opacity="0.5" stroke="none"/>
+    <circle cx="115" cy="65" r="3" fill="#5B8DEF" fill-opacity="0.5" stroke="none"/>
+  </g>
+
+  <text x="600" y="120" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="52" font-weight="700" fill="url(#text)">Abdulrahman Alghussein</text>
+  <text x="600" y="158" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#9fb0c9">Business Analyst · SAP B1 and Process Analytics</text>
+
+  <path d="M0 210 C 200 250, 400 175, 600 210 C 800 245, 1000 175, 1200 210 L1200 260 L0 260 Z" fill="url(#wave)" opacity="0.9"/>
+</svg>
